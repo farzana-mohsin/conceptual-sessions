@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  min-height: 200px;
+  /* min height will be maintained by the page even if there's no content */
+}
+.container {
+  border: 2px solid green;
+  width: 80%;
+  margin: 0 auto;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+.img-container {
+  border: 2px solid red;
+  width: 48%;
+}
+.text-container {
+  border: 2px solid blue;
+  width: 48%;
+}
